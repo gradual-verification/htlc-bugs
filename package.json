@@ -1,0 +1,30 @@
+{
+  "name": "ethereum-htlc",
+  "version": "0.0.8",
+  "description": "Hashed Timelock Contracts for Ethereum",
+  "main": "truffle.js",
+  "license": "GPL-3.0",
+  "repository": "chatch/hashed-timelock-contract-ethereum",
+  "bugs": {
+    "url": "https://github.com/chatch/hashed-timelock-contract-ethereum/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "ethereum",
+    "hashed-timelock-contract",
+    "solidity",
+    "smart-contract"
+  ],
+  "homepage": "https://github.com/chatch/hashed-timelock-contract-ethereum#README.md",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "truffle-assertions": "^0.8.2",
+    "truffle-hdwallet-provider": "^1.0.3"
+  }
+}
