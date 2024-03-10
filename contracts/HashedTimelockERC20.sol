@@ -214,7 +214,6 @@ contract HashedTimelockERC20 {
     {
         LockContract storage c = contracts[_contractId];
         c.preimage = _preimage;
-        c.withdrawn = true;
         ERC20(c.tokenContract).transfer(c.receiver, c.amount);
         emit HTLCERC20Withdraw(_contractId);
         return true;
